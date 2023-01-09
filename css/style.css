@@ -31,6 +31,21 @@
     font-size: 50px;
     color: #FAFAFF;
   }
+  .navbutton{
+    display: flex;
+    background-color: #8A7968;
+    height: 62.5%;
+    width: 15%;
+    cursor: pointer;
+    border-radius: 43.57px;
+    text-align: center;
+    font-size: 45px;
+    color: #FAFAFF;
+    border: 3px solid #252422;
+  }
+  #languages{
+    margin-left: 30%;
+  }
   body{
     background-color: #2b292c;
     height: 100vh;
@@ -41,7 +56,7 @@ img{
     width: 100%;
 }
 .onderimg{
-    height: 10vh;
+    height: 30vh;
     background-color: #2b292c;
     padding-top: 1px;
     margin: -10px;
@@ -54,5 +69,23 @@ img{
   left: 25px;
   top: 680px;
   border-radius: 176.5px;
-  
+  text-align: start;
+  color: #FAFAFF;
+  font-size: 50px;
+ padding-left: 5%;
+ padding-top: 5%;
+}
+.extraparthome{
+height: 100vh;
+width: 100%;
+display: grid;
+}
+#languages-intro{
+background-color: #FAFAFF;
+}
+#projects-intro{
+  background-color: #2b292c;
+}
+#about-me-intro{
+background-color: #FAFAFF;
 }
