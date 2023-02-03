@@ -1,6 +1,7 @@
 * {
   padding: 0px;
-  margin: auto;
+  margin: 0;
+ 
 }
 
 header {
@@ -101,18 +102,24 @@ img {
   grid-row-end: 4;
   background-color: #252422;
   margin: 0px;
+  color: #FFFCF2;
+  font-size: 70px;
+  padding-left: 10%;
 }
 
 .name-to-page {
   background-color: #8A7968;
-
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 5;
   grid-row-end: 6;
   margin: 0px;
-  font-size: 75;
+  font-size: xx-large;
+  text-align: center;
+  padding-top: 4%;
+  color: #FFFCF2;
 }
+
 
 img {
   grid-column-start: 5;
@@ -121,13 +128,33 @@ img {
   grid-row-end: 6;
   margin: 0px;
 }
-
-.test {
+#extraparthome2{
+  background-color: #252422;
+  display: grid;
+  grid-template-rows: 10% 35% 10% 20% 15%;
+  grid-template-columns: 5% 20% 20% 15% 30% 10% 25%;
+}
+.info2 {
+  display: grid;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color: #FFFCF2;
+  margin: 0px;
+  color: #252422;
+  font-size: 70px;
+  padding-left: 10%;
+}
+.name-to-page2 {
   background-color: #8A7968;
-
-  grid-column-start: 3;
-  grid-column-end: 4;
+  grid-column-start: 4;
+  grid-column-end: 5;
   grid-row-start: 5;
   grid-row-end: 6;
   margin: 0px;
+  font-size: xx-large;
+  text-align: center;
+  padding-top: 4%;
+  color: #FFFCF2;
 }
