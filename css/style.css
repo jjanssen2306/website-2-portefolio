@@ -1,7 +1,10 @@
 * {
   padding: 0px;
   margin: 0;
- 
+  
+}
+html{
+  scroll-behavior: smooth;
 }
 
 header {
@@ -33,7 +36,8 @@ header {
   padding-left: 50px;
   border-radius: 43.57px;
   font-size: 50px;
-  color: #FAFAFF;
+  color: #FAFAFF; 
+  margin-top: 0.5%;
 }
 
 .navbutton {
@@ -44,13 +48,26 @@ header {
   cursor: pointer;
   border-radius: 43.57px;
   text-align: center;
+  padding-top: 0.5%;
+  padding-left: 1.5%;
   font-size: 45px;
   color: #FAFAFF;
   border: 3px solid #252422;
 }
 
 #languages {
-  margin-left: 30%;
+  margin-left: 20%;
+  margin-top: 1%;
+}
+#projects {
+  margin-left: 5%;
+  margin-top: 1%;
+  padding-left: 1
+}
+#about-me {
+  margin-left: 5%;
+  margin-top: 1%;
+  padding-top: 1%;
 }
 
 body {
@@ -103,7 +120,7 @@ img {
   background-color: #252422;
   margin: 0px;
   color: #FFFCF2;
-  font-size: 70px;
+  font-size: 60px;
   padding-left: 10%;
 }
 
@@ -132,12 +149,12 @@ img {
   background-color: #252422;
   display: grid;
   grid-template-rows: 10% 35% 10% 20% 15%;
-  grid-template-columns: 5% 20% 20% 15% 30% 10% 25%;
+  grid-template-columns: 5% 20% 20% 15% 12.5% 17.5% 10% 25%;
 }
 .info2 {
   display: grid;
   grid-column-start: 4;
-  grid-column-end: 6;
+  grid-column-end: 7;
   grid-row-start: 2;
   grid-row-end: 4;
   background-color: #FFFCF2;
@@ -149,7 +166,7 @@ img {
 .name-to-page2 {
   background-color: #8A7968;
   grid-column-start: 4;
-  grid-column-end: 5;
+  grid-column-end: 6;
   grid-row-start: 5;
   grid-row-end: 6;
   margin: 0px;
@@ -157,4 +174,81 @@ img {
   text-align: center;
   padding-top: 4%;
   color: #FFFCF2;
+}
+.man img{
+ height: 70vh;
+ width: 25vw;
+  margin: 0px;
+  padding-left: 150%;
+  padding-top: 150%;
+}
+footer{
+  height: 50vh;
+  width: 100%;
+  display: flex;
+}
+.middenFooter{
+  display: flex;
+  display: grid;
+  height: 40vh;
+  width: 75%;
+  background-color: white;
+  margin:auto;
+  border-radius:136px;
+  grid-template-rows: 10% 30% 10% 30%;
+  grid-template-columns: 7.5% 35% 10% 35%;
+}
+.naam{
+display: grid;
+grid-row-start: 2;
+grid-row-end: 3;
+grid-column-start: 2;
+grid-column-end: 3;
+background-color: #8A7968;
+margin: 0px;
+border-radius:36.93px;
+color: white;
+text-align: center;
+font-size:xx-large;
+padding-top: 5%;
+}
+.contact{
+  display: grid;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  background-color: #8A7968;
+  margin: 0px;
+  border-radius:36.93px;
+  color: white;
+text-align: center;
+font-size:xx-large;
+padding-top: 5%;
+}
+.email{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  background-color: #8A7968;
+  margin: 0px;
+  border-radius:36.93px;
+  color: white;
+text-align: center;
+font-size:xx-large;
+padding-top: 5%;
+}
+.nummer{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  background-color: #8A7968;
+  margin: 0px;
+  border-radius:36.93px;
+  color: white;
+text-align: center;
+font-size:x-large;
+padding-top: 5%;
 }
