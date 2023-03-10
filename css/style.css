@@ -120,7 +120,7 @@ img {
   background-color: #252422;
   margin: 0px;
   color: #FFFCF2;
-  font-size: 60px;
+  font-size: 45px;
   padding-left: 10%;
 }
 
@@ -161,8 +161,9 @@ img {
   margin: 0px;
   color: #252422;
   font-size: 70px;
-  padding-left: 10%;
+  padding-left: 5%;
 }
+
 .name-to-page2 {
   background-color: #8A7968;
   grid-column-start: 4;
